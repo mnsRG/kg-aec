@@ -3,7 +3,7 @@
 
 ### Run with Google Colab
 
-<a target="_blank" href="https://colab.research.google.com/github/mnsRG/kg-aec/blob/main/notebooks/Heterogeneous_Knowledge_Graphs.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/mnsRG/kg-aec/blob/main/notebooks/KG_GNN_AEC.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
