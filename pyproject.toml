@@ -1,25 +1,35 @@
 [tool.poetry]
-name = "kg-aec"
+name = "kg-gnn-aec"
 version = "0.1.0"
-description = "presentation"
+description = "Knowledge Graphs & GNN in AEC"
 authors = ["Manos Argyris <manos0088@gmail.com>"]
 readme = "README.md"
+package-mode = false 
 
 
 [tool.poetry.dependencies]
-python = "^3.9"
-yfiles-jupyter-graphs = "^1.4.5"
-rdflib = "^6.3.2"
+python = "^3.10"
+torch = "2.4.1"
+torch-geometric = "^2.5.0"
+torch-sparse = [
+    { url = "https://data.pyg.org/whl/torch-2.4.0+cpu/torch_sparse-0.6.18-cp310-cp310-macosx_11_0_universal2.whl", markers = "sys_platform == 'darwin'" }
+]
+torch-scatter = [
+    { url = "https://data.pyg.org/whl/torch-2.4.0+cpu/torch_scatter-2.1.2-cp310-cp310-macosx_10_9_universal2.whl", markers = "sys_platform == 'darwin'" }
+]
+yfiles-jupyter-graphs = "^1.8.0"
+rdflib = "^7.0.1"
 shapely = "^2.0.1"
 matplotlib = "^3.7.1"
-plotly = "^5.15.0"
-ipykernel = "^6.23.1"
-pandas = "^2.0.2"
-toolz = "^0.12.0"
+plotly = "^5.24.0"
+ipykernel = "^6.29.1"
+pandas = "^2.2.1"
+toolz = "^1.0.0"
 gdown = "^4.7.1"
-torch = "^2.0.1"
-torch-geometric = "^2.3.1"
-nbformat = "^5.9.0"
+nbformat = "^5.10.0"
+scikit-learn = "^1.5.2"
+openai = "^1.52.0"
+oxrdflib = "^0.3.7"
 
 
 [build-system]

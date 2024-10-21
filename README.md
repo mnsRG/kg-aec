@@ -1,4 +1,4 @@
-# AEC & Knowledge Graphs - Presentation
+# Knowledge Graphs & GNNs in AEC
 
 
 ### Run with Google Colab
@@ -13,7 +13,8 @@
 
 - Install poetry: `https://python-poetry.org`
 - Clone the repository
+- Run `poetry lock` from the root folder 
 - Run `poetry install` from the root folder
-- Then run `poetry run pip install git+https://github.com/pyg-team/pyg-lib.git`
+- If `torch` installation fails, use `poetry run pip install torch` instead
 - Use a Jupyter Notebook editor and open the .ipynb file from `/notebooks`
 - **Ignore** the first cell: *Install (Google Colab)*
